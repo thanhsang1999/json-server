@@ -14,6 +14,7 @@ function generateCourseDetail(number) {
       rateStar: Math.random() * 5,
       bought: faker.random.number(10000),
       price: faker.random.number(10000000),
+      name: faker.name.findName(),
       coursesDetail: [{}],
     };
     courses.push(course);
