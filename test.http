@@ -1,10 +1,3 @@
 GET http://localhost:3000/posts
 ###
-POST http://localhost:3000/posts
-Content-Type: application/json
-
-{
-     "id": 3,
-     "title": "json-server2",
-      "author": "typicode2"
-}
+GET http://localhost:3001/courses?_limit=6&page=2

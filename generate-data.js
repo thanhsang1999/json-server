@@ -12,7 +12,7 @@ const generateUser = require("./genarate-data/user");
   // const listEmployees = generateEmployees(1);
   // const lisPproducts = generateProducts(1);
   // const dataUser = generateUser();
-  const listCourses = generateCourses(100);
+  const listCourses = generateCourses(10);
   const courseDetail = generateCourseDetail(1);
 
   //add list to obj
