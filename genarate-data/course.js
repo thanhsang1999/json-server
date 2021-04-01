@@ -14,6 +14,8 @@ function generateCourses(number) {
       rateStar: Math.random() * 5,
       bought: faker.random.number(10000),
       price: faker.random.number(10000000),
+      createdAt: Date.parse(faker.date.past()),
+      updateAt: Date.parse(faker.date.past()),
       // coursesDetail: [{}],
     };
     courses.push(course);
