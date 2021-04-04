@@ -8,7 +8,7 @@ function generateCourses(number) {
       id: faker.random.uuid(),
       title: faker.lorem.words(),
       description: faker.lorem.paragraph(),
-      thumbnail: faker.image.technics(),
+      thumbnail: faker.image.technics() + "/" + faker.random.number(),
       imgAvatar: faker.image.people(),
       nameAuthor: faker.name.findName(),
       rateStar: Math.random() * 5,
